@@ -81,6 +81,7 @@
     background-image: url(./img/z4901263615956_2fa3c3eba3ffc7ec4b324474a6d47b89.jpg);
 }
 .main-head-icon {
+    cursor: pointer;
     padding: 5px;
     display: flex;
     align-items: center;
@@ -149,9 +150,105 @@
 .price {
     color: #8097a2;
 }
+.main-footer {
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+.main-footer-left {
+    background-image: url(./img/mai-left.jpg);
+    border:1px solid transparent ;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    flex: 3;
+    
+
+}
+.main-footer-left-paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+    height: 100px;
+    position: relative;
+    top: 200px;
+    left: 500px;
+
+}
+.bland {
+    opacity: 0.5;
+
+}
+.bold {
+    font-size: 120px;
+    font-weight: 700;
+}
 
 
-/* footer */
+.main-footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+    margin-right: 40px;
+}
+.main-footer-right-top {
+    flex: 1;
+    background-image: url(./img/main-right-top.jpg);
+    object-fit: cover;
+    background-size: 100%;
+    background-position: center;
+    border:1px solid transparent ;
+    border-radius:4px;
+    background-repeat: no-repeat;
+}
+.main-footer-right-top-paragraph {
+    height: 100px;
+    padding-left: 50px;
+    padding-top: 10px;
+    
+
+}
+.main-footer-right-bot-paragraph {
+    height: 100px;
+    padding-left: 50px;
+    padding-top: 10px;
+  
+
+}
+.main-footer-right-bot {
+    flex: 1;
+    background-image: url(./img/main-right-bot.jpg);
+    background-repeat: no-repeat;
+    border:1px solid transparent ;
+    border-radius:4px;
+    background-size: 100%;
+    background-position: center;
+}
+
+/* Phần footer */
 .footer {
-    /* background-color: black; */
+    margin: 50px;
+    border-top: 1px solid rgb(0,0,0,.1);
+    border-bottom: 1px solid rgb(0,0,0,.1);
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+.footer-list-icon {
+    padding-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.footer-iteam {
+    opacity: .5;
 }
